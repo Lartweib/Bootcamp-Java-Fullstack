@@ -1,0 +1,101 @@
+/*Ejercicio 1 
+
+*{
+  background-color: blue;
+}
+
+/*Ejercicio 2
+
+p {
+  background-color: blue;
+}
+
+/*Ejercicio 3
+
+#title-1 {
+  background-color: blue;
+}
+
+/*Ejercicio 4
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+/*Ejercicio 5
+[ID]{
+  background-color: blue;
+}
+
+/*Ejercicio 6
+
+[ID="title-1"]{
+  background-color: blue;
+}
+
+/*Ejercicio 7
+
+[HREF="https://www.yahoo.com"]{
+  background-color: blue;
+}
+
+/*Ejercicio 8
+
+[class^="title"]{
+  background-color: blue;
+}
+
+/*Ejercicio 9
+
+[HREF$=".com"]{
+  background-color: blue;
+}
+
+/*Ejercicio 10
+
+[class|="title"]{
+  background-color:blue;
+}
+
+/*Ejercicio 11
+
+[HREF*="127"]{
+  background-color: blue;
+}
+
+/*Ejercicio 12
+
+[HREF^="http"]{
+  background-color: blue;
+}
+
+/*Ejercicio 13
+
+A, P, h1{
+  background-color: blue;
+}
+
+/*Ejercicio 14
+
+main > p {
+  background-color: blue;
+}
+
+/*Ejercicio 15
+
+h1 + * {
+  background-color: blue;
+}
+
+/*Ejercicio 16
+
+h1 ~ *{
+  background-color: blue;
+}
+
+
+/*Ejercicio 17
+
+main > * {
+  background-color: blue;
+}
