@@ -1,0 +1,19 @@
+p{
+  column-count: 3;
+  column-gap: 40px;
+  text-align: justify;
+  column-rule-width:2px;
+  column-rule-style: solid;
+  column-rule-color: red;
+}
+h1 {
+  text-align: center;
+}
+h1>span:hover{
+  color: blue;
+}
+
+p>span::selection {
+  background-color:red;
+  color:white;
+}
