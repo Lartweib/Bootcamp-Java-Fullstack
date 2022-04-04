@@ -1,0 +1,17 @@
+h1{
+  color: red !important;
+}
+
+.important{
+  color:yellow;
+}
+
+h2.important{
+  color: green;
+}
+
+#main-photo{
+  color: blue ;
+}
+
+
