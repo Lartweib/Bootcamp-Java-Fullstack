@@ -1,0 +1,41 @@
+body{
+  margin-top: 10px;
+  background-color: rgb(245, 240, 255);
+}
+caption>span{
+  background-color: rgb(0, 174, 255);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+caption{
+  margin-bottom:0px;
+}
+td {
+  text-align: center;
+}
+thead>tr>td{
+  font-weight: bold;
+}
+tbody>tr>td {
+  text-align: center;
+  border-bottom: solid black 3px;
+  border-left: solid black 1px;
+}
+
+table {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  border: solid black 5px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: bisque;
+}
+
+.iva {
+  font-size:16px;
+  text-align: center;
+  background-color: rgb(0, 174, 255);
+}
