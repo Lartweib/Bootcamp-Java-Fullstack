@@ -1,0 +1,9 @@
+div{
+  width: 30%;
+  height: 400px;
+  background-color: greenyellow;
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
