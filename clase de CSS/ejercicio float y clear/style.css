@@ -1,0 +1,32 @@
+header{
+  background-color: red;
+  height: 90px;
+  width: 100%;
+}
+
+nav{
+  background-color: blue;
+  height: 30px;
+  width: 100%;
+}
+
+section{
+  background-color: #fec6c5;
+  height: 550px;
+  width: 63%;
+  float:left;
+}
+
+aside{
+  background-color: #f380fe;
+  height: 550px;
+  width: 34%;
+  float: right;
+}
+
+footer{
+  background-color: #80ff08;
+  height: 40px;
+  width: 100%;
+  clear: right;
+}
