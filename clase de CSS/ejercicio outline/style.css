@@ -1,0 +1,52 @@
+.div1{
+    margin-top: 60px;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    outline: 20px dashed #006DB5;
+    box-shadow: 0px 0px 0px 20px #3CFDD3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.div2{
+  margin-top: 60px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  outline: greenyellow;
+  outline-width: 5px;
+  outline-style: dotted;
+  outline-width: 10px;
+  outline-offset: 5px;
+}
+
+.div1:hover{
+  outline-color: #3CFDD3;
+  box-shadow: 0 0 0 20px #006DB5;
+}
+
+.div2:hover{
+  background-color: greenyellow;
+  margin-left: auto;
+  margin-right: auto;
+  outline: red;
+  outline-width: 5px;
+  outline-style: dotted;
+  outline-width: 20px;
+  outline-offset: 10px;
+}
+
+@keyframes animateBorder {
+  to {
+    outline-color: #EA3556;
+    box-shadow: 0 0 0 6px yellow;
+  }
+}
