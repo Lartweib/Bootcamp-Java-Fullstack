@@ -1,0 +1,45 @@
+.caja {
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border: solid black 4px;
+  background-color: red;
+  position: relative;
+}
+
+.esquina {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  border: solid black 3px;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  
+}
+span{
+  position: absolute;
+  top:16%;
+  left: 35%;
+}
+.div1 {
+  top: -19px;
+  left: -19px;
+}
+.div2 {
+  top: -19px;
+  right: -19px;
+}
+.div3 {
+  bottom: -19px;
+  left: -19px;
+}
+.div4 {
+  bottom: -19px;
+  right: -19px;
+}
