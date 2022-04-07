@@ -1,0 +1,181 @@
+.naranja{
+  background-color: orange;
+}
+.amarillo{
+  background-color: yellow;
+}
+.azul{
+  background-color: blue;
+}
+.gris{
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  body{
+    background-color: rgb(0, 166, 255);
+  }
+  header{
+    display:block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .naranja{
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  nav{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .amarillo{
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  main{
+    display:block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .azul{
+    height: 100px;
+    width: 100%;    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+    display:block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gris {
+    height: 100px;
+    width: 100%;    
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body{
+    background-color: green;
+  }
+  header{
+    display:block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .naranja{
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  nav{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .amarillo{
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  main{
+    display:block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .azul{
+    height: 100px;
+    width: 100%;    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+    display:inline-block;
+    width: 100vw;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gris {
+    display:inline-block;
+    height: 150px;
+    width: 48%;    
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body{
+    background-color: red;
+  }
+  header{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .naranja{
+    height: 100px;
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .amarillo{
+    height: 300px;
+    width: 99.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  main{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .azul{
+    height: 200px;
+    width: 32%;    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gris {
+    height: 150px;
+    width: 24%;    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
