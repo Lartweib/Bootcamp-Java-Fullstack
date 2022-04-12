@@ -1,0 +1,16 @@
+$primary: rgb(97, 97, 243);
+$secondary: rgb(247, 196, 138);
+$success: rgb(0, 255, 81);
+$info: rgb(226, 226, 76);
+$warning: rgb(231, 120, 120);
+$danger:rgb(217, 105, 181);
+$light:white;
+$dark:rgb(67, 61, 61);
+$fede:rgb(116, 178, 201);
+
+.bg-fede{
+  --bs-bg-opacity: 1;
+  background-color: $fede !important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
