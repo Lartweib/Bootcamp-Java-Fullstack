@@ -1,0 +1,17 @@
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.border-white{
+  border: white 4px solid ;
+}
+
+@media (min-width:576px) {
+  .rojo-alto{
+    height: 128px;
+  }
+}
