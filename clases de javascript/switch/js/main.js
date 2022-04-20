@@ -1,38 +1,26 @@
-// Ejercicio 06-1
-let random = (Math.round(Math.random()*12));
+// Ejercicio 08-1
 
-let mes = random
-console.log("Numero elegido aleatoriamente: "+mes)
-switch (mes) {
-  case 1: console.log("Enero");break;
-  case 2: console.log("Febrero");break;
-  case 3: console.log("Marzo");break;
-  case 4: console.log("Abril");break;
-  case 5: console.log("Mayo");break;
-  case 6: console.log("Junio");break;
-  case 7: console.log("Julio");break;
-  case 8: console.log("Agosto");break;
-  case 9: console.log("Septiembre");break;
-  case 10: console.log("Octubre");break;
-  case 11: console.log("Noviembre");break;
-  case 12: console.log("Diciembre");break;
-  default:
-    console.error("ERROR: No es un mes");
-    break;
+function substituir(string) {
+  let newString = string.replace(/a/g,"o");
+  return newString
 }
 
-// Ejercicio 06-2
+console.log(substituir(prompt()))
 
-let string = prompt("Ingrese un numero del 1 al 5")
-let numero = ""
-switch (string) {
-  case "1": numero = parseInt(string);break;
-  case "2": numero = parseInt(string);break;
-  case "3": numero = parseInt(string);break;
-  case "4": numero = parseInt(string);break;
-  case "5": numero = parseInt(string);break;
-  default:
-    console.error("ERROR: debe indicar un numero del 1 al 5");
-    break;
+// Ejercicio 08-2
+
+function empiezaCon(string) {
+  return console.log(string.startsWith("aca"));
+  
 }
-console.log("Numero indicado: "+numero + ", Tipo de dato: " + typeof numero)
+
+empiezaCon("academia");
+empiezaCon("escuela");
+
+// Ejercicio 08-3
+
+function repetir(string) {
+  return console.log(string.repeat(3));
+  
+}
+repetir("hola")
