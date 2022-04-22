@@ -49,12 +49,12 @@ console.log("El array quedo asi: ",array3)
 // 🌶️ en el siguiente array: 🌶️🥛🌶️🥛🌶️🥛
 
 let array4= ['🌶️','🥛','🌶️','🥛','🌶️'];
-console.log("El array es el siguiente: ",array4)
-let arrayMod =[]
-array4.forEach(function(valor, indice) {
-  array4.push(valor);
+console.log("El array es el siguiente: ",array4);
+let arrayMod =[];
+array4.forEach(function(valor) {
+  arrayMod.push(valor);
   if (valor=='🌶️') {
-    array4.push('🥵');
+    arrayMod.push('🥵');
   }
   });
 array4=arrayMod;
@@ -65,3 +65,23 @@ console.log("El array quedo asi: ",array4)
 // cartas comodín entre medio de dos cartas . Por ejemplo:🎴🃏🎴 En el
 // siguiente array:
 // 🎴🎴🎴🃏🎴🎴🎴
+
+let array5= ['🎴','🎴','🃏','🎴','🎴'];
+console.log("El array es el siguiente: ",array5);
+let arrayMod1 =[];
+let count = 0;
+array5.forEach(function(valor) {
+  if (valor=='🎴') {
+    count++;
+  }
+  if (count==2) {
+    arrayMod1.push('🃏');
+    arrayMod1.push(valor);
+    count = 0;
+  }
+  else{
+    arrayMod1.push(valor);
+  }
+  });
+array5=arrayMod1;
+console.log("El array quedo asi: ",array5);
