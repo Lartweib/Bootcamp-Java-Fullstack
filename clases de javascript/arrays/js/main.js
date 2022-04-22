@@ -66,18 +66,20 @@ console.log("El array quedo asi: ",array4)
 // siguiente array:
 // 🎴🎴🎴🃏🎴🎴🎴
 
-let array5= ['🎴','🎴','🃏','🎴','🎴'];
+let array5= ['🎴','🎴','🎴','🃏','🎴','🎴','🎴'];
 console.log("El array es el siguiente: ",array5);
 let arrayMod1 =[];
 let count = 0;
 array5.forEach(function(valor) {
   if (valor=='🎴') {
     count++;
+  }else{
+    count=0;
   }
   if (count==2) {
     arrayMod1.push('🃏');
     arrayMod1.push(valor);
-    count = 0;
+    count = 1;
   }
   else{
     arrayMod1.push(valor);
