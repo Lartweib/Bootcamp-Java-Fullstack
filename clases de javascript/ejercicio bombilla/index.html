@@ -10,12 +10,19 @@
   </head>
   <body>
     <main>
+
       <div class="container">
         <div class="bulb">
-          <img src="./img/apagada.jpg" class="bOff" alt="">
-          <img src="./img/encendida.jpg" class="bOn hide" alt="">
+          <img src="./img/bOffW.jpg" class="bOffW" alt="">
+          <img src="./img/bOnW.jpg" class="bOnW hide" alt="">
+          <img src="./img/bOnB.jpg" class="bOnB hide themeHide" alt="">
+          <img src="./img/bOffB.jpg" class="bOffB themeHide" alt="">
         </div>
         <div class="parameters">
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
           <button id="interruptor">ON / OFF</button>
           <label id="textZoom" for="zoom">Zoom: 6</label>
           <input type="range" name="zoom" min="1" max="6" value="6" id="zoom">
