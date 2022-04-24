@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel Tijeras</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra Papel Tijeras</h1>
+
+        <div id="resultado">
+    
+            <img id="imgIA" src="./img/piedra.png">
+
+            <div class="centro">
+                <div class="p1">
+                    <h2>P1</h2>
+                    <p>0</p>
+                </div>
+                <div id="texto-inicial">
+                    Elige una opción
+                </div>
+                <div class="ia">
+                    <h2>IA</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <img id="imgUsuario" src="./img/piedra.png">
+
+        </div>
+
+        <div id="grupo-btn">
+            <button id="piedra" type="button">
+                <img src="./img/piedra.png"/>
+            </button>
+            <button id="papel" type="button">
+                <img src="./img/papel.png"/>
+            </button>
+            <button id="tijeras" type="button">
+                <img src="./img/tijeras.png"/>
+            </button>
+        </div>
+
+
+    </div>
+    <!--Scripts-->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
