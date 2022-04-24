@@ -59,28 +59,28 @@ zoom.on("input", () => {
     $(".bOnB").css("height", "200px");
   }
   else if (zoom.val()==="3") {
+    $(".bOffW").css("height", "250px");
+    $(".bOnW").css("height", "250px");
+    $(".bOffB").css("height", "250px");
+    $(".bOnB").css("height", "250px");
+  }
+  else if (zoom.val()==="4") {
     $(".bOffW").css("height", "300px");
     $(".bOnW").css("height", "300px");
     $(".bOffB").css("height", "300px");
     $(".bOnB").css("height", "300px");
   }
-  else if (zoom.val()==="4") {
+  else if (zoom.val()==="5") {
+    $(".bOffW").css("height", "350px");
+    $(".bOnW").css("height", "350px");
+    $(".bOffB").css("height", "350px");
+    $(".bOnB").css("height", "350px");
+  }
+  else if (zoom.val()==="6") {
     $(".bOffW").css("height", "400px");
     $(".bOnW").css("height", "400px");
     $(".bOffB").css("height", "400px");
     $(".bOnB").css("height", "400px");
-  }
-  else if (zoom.val()==="5") {
-    $(".bOffW").css("height", "500px");
-    $(".bOnW").css("height", "500px");
-    $(".bOffB").css("height", "500px");
-    $(".bOnB").css("height", "500px");
-  }
-  else if (zoom.val()==="6") {
-    $(".bOffW").css("height", "600px");
-    $(".bOnW").css("height", "600px");
-    $(".bOffB").css("height", "600px");
-    $(".bOnB").css("height", "600px");
   }
 });
 
