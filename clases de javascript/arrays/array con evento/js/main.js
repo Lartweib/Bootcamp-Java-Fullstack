@@ -29,7 +29,6 @@ function borrar(item) {
   $(`.${item}`).fadeOut('slow',function(){
     posFadeOut
   });
-
 }
 
 function push() {
