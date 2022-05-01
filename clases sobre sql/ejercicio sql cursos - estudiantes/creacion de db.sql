@@ -11,9 +11,12 @@ primary key (id_estudiante)
 create table if not exists notas (
 nota decimal(2,1),
 estudiantes_id_estudiante int not null,
-primary key (nota, estudiantes_id_estudiante),
+cursos_id_curso int not null,
+primary key (nota, estudiantes_id_estudiante, cursos_id_curso),
 foreign key (estudiantes_id_estudiante)
-	references instituto.estudiantes(id_estudiante)
+	references instituto.estudiantes(id_estudiante),
+foreign key (cursos_id_curso)
+	references instituto.cursos(id_curso)
 );
 
 create table if not exists profesores (
@@ -22,7 +25,7 @@ nombre VARCHAR(45) not null,
 apellido VARCHAR(45) not null,
 notas_nota DECIMAL(2,1),
 notas_estudiantes_id_estudiante int not null,
-primary key (id_profesor, notas_nota, notas_estudiantes_id_estudiante),
+primary key (id_profesor),
 foreign key (notas_nota)
 	references instituto.notas(nota),
 foreign key (notas_estudiantes_id_estudiante)
