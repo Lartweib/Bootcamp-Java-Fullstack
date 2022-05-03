@@ -9,7 +9,9 @@ public class Main {
 	};
 	
 	public static void main(String[] args) {
-		parImpar(5);
+		int num = (int) (Math.random()*100+1);
+		System.out.println("El numero elegido es: "+num);
+		parImpar(num);
 	}
 
 }
