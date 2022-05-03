@@ -216,3 +216,4 @@ DROP TABLE Movies;
 
 -- And drop the BoxOffice table as well
 DROP TABLE BoxOffice;
+
