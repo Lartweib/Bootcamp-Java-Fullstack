@@ -33,7 +33,7 @@ public class Main {
 		System.out.print("\n");
 	}
 	static void españa() { 
-		System.out.println("\n"+WHITE_B+ANSI_BLACK+"           "+"ESPAÑA"+"          \n"+ANSI_RESET);
+		System.out.println("\n"+WHITE_B+ANSI_BLACK+"          "+"ESPAÑA"+"           \n"+ANSI_RESET);
 		for (int i=0; i<9; i++) {
 			if (i<=1 || i>=7) {
 				System.out.println(RED_B+SPACE);
@@ -79,7 +79,7 @@ public class Main {
 		System.out.print("\n");
 	}
 	static void grecia() {
-		System.out.println("\n"+WHITE_B+ANSI_BLACK+"           "+"GRECIA"+"          \n"+ANSI_RESET);
+		System.out.println("\n"+WHITE_B+ANSI_BLACK+"          "+"GRECIA"+"           \n"+ANSI_RESET);
 		System.out.println(BLUE_B+"    "+WHITE_B+"  "+BLUE_B+"                     ");
 		System.out.println(BLUE_B+"    "+WHITE_B+"  "+BLUE_B+"    "+WHITE_B+"                 ");
 		System.out.println(WHITE_B+"          "+BLUE_B+"                 ");
