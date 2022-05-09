@@ -6,7 +6,7 @@ public class Car {
 	private int speed;
 	
 
-	//Metodos
+	//Constructores
 	public Car() {
 		this.fuel=100;
 		this.maxspeed=150;
@@ -26,6 +26,7 @@ public class Car {
 		System.out.println("MaxSpeed: "+getMaxspeed());
 	}
 	
+	//Metodos
 	public int getMaxspeed() {
 		return maxspeed;
 	}
