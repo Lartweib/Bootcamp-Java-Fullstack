@@ -1,6 +1,10 @@
-# Repositorio personal de ejercicios del Bootcamp del programa Enfoca't realizado en Fundacion Esplai
+# Bootcamp de Java Fullstack
 
-Bootcamp de Java Fullstack.
+Este es un repositorio personal sobre:
+
+- **Bootcamp**: _Java Fullstack_
+- **Programa**: _Enfoca't_
+- **Facilitadores**: _Fundacion Esplai_
 
 ## Links a ejercicios
 
